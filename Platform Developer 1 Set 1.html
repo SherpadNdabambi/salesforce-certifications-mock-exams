@@ -1,0 +1,1924 @@
+<ol class="exam">
+    <li>
+        <p>of 65. Salesforce administrator used Flow Builder to create a flow named "accountOnboarding". The flow must be used
+            inside an Aura component.</p>
+        <p>Which tag shoold a developer use to display the flow in the component?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question1" value="A"/>
+                    <span>lightning: flow</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question1" value="B"/>
+                    <span>lightning-flow</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question1" value="C"/>
+                    <span>aura-flow</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question1" value="D"/>
+                    <span>aura: flow</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A developer is alerted to an issue with a custom Apex trigger that is causing records to be duplicated.</p>
+        <p>What is the most appropriate debugging approach to troubleshoot the issue?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question2" value="A"/>
+                    <span>Review the Historical Event logs to identify the source of the issue.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question2" value="B"/>
+                    <span>Add system.debug statements to the code to track the execution flow and identify the issue.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question2" value="C"/>
+                    <span>Use the Apex Interactive Debugger to step through the code and identify the issue.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question2" value="D"/>
+                    <span>Disable the trigger in production and test to see if the issue still occurs.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. What is the resolt of the following code snippet?</p>
+        <code>
+            public woid doWork(Account acct) {<br>
+            for (Integer i = 0; i <= 2007 i++) {<br>
+            insert acct;<br>
+            }<br>
+            }<br>
+        </code>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question3" value="A"/>
+                    <span>0 Accounts are inserted.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question3" value="B"/>
+                    <span>1 Account is inserted.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question3" value="C"/>
+                    <span>200 Accounts are inserted.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question3" value="D"/>
+                    <span>201 Accounts are inserted.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. If Apex code executes inside the <code>execute()</code> method of an Apex class when implementing the <code>Batchable</code>
+            interface, which two statements are true regarding governor
+            limits?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question4" value="A"/>
+                    <span>The Apex governor limits are reset for each iteration of the <code>execute()</code> method.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question4" value="B"/>
+                    <span>The Apex governor limits cannot be exceeded due to the asynchronous nature of the transaction.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question4" value="C"/>
+                    <span>The Apex governor limits will use the asynchronous limit levels.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question4" value="D"/>
+                    <span>The Apex governor limits are omitted while calling the constructor of the Apex class.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A developer must perform a complex SOQL query that joins two objects in a Lightning component.</p>
+        <p>How can the Lightning component execute the query?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question5" value="A"/>
+                    <span>Write the query in a custom Lightning web component wrapper and invoke from the Lightning component.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question5" value="B"/>
+                    <span>Invoke an Apex class with the method annotated as <code>@AuraEnabled</code> to perform the query.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question5" value="C"/>
+                    <span>Use the Salesforce Streaming API to perform the SQL query.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question5" value="D"/>
+                    <span>Create a flow to execute the query end invoke from the Lightning component.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Which two operations affect the number of times a trigger can fire?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question6" value="A"/>
+                    <span>Criteria-based sharing calcolations</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question6" value="B"/>
+                    <span>Email messages</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question6" value="C"/>
+                    <span>Roll-up summary fields</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question6" value="D"/>
+                    <span>After-save record-triggered flow</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Which two are best practices when it comes to Aura component and application event handling?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question7" value="A"/>
+                    <span>Try to use application events as opposed to component events.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question7" value="B"/>
+                    <span>Reuse the event logic in a component bundle, by putting the legic in the helper.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question7" value="C"/>
+                    <span>Use component events to communicate actions that shoold be handled at the application level.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question7" value="D"/>
+                    <span>Handle low-level events in the event handler and re-fire them as higher-level events.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. What are three considerations when using the <code>@InvocableMethod</code> annotation in Apex?</p>
+        <p>Choose 3 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question8" value="A"/>
+                    <span>Only one methad using the <code>@InvocableMethod</code> annotation can be defined per Apex class_</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question8" value="B"/>
+                    <span>A method using the <code>@InvocableMethod</code> annotation can have moltiple input parameters.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question8" value="C"/>
+                    <span>A method using the <code>@InvocableMethod</code> annotation must be declared as static,</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question8" value="D"/>
+                    <span>A method using the <code>@InvocableMethod</code> annotation must define a return value.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question8" value="D"/>
+                    <span>A method using the <code>@InvocableMethod</code> annotation can be declared as Public or Global.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Managers at Universal Containers want to ensure that only decommissioned containers are able to be deleted in
+            the system. To meet the business requirement a Salesforce developer adds "Decommissioned" as a picklist
+            value for the <code>Status_c</code> custom field within the <code>Container_c</code> object.</p>
+        <p>Which two approaches coold a developer use to enforce only Container records with a status of
+            "Decommissioned" can be deleted?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question9" value="A"/>
+                    <span>Before record-tnggered flaw</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question9" value="B"/>
+                    <span>Apex trigger</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question9" value="C"/>
+                    <span>After record-triggered flow</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question9" value="D"/>
+                    <span>Validation role</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Which two settings must be defined In order to update a record of a junction object?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question10" value="A"/>
+                    <span>Read/Write access on the secondary relationship</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question10" value="B"/>
+                    <span>Read/Write access on the primary relationship</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question10" value="C"/>
+                    <span>Read/Write access on the junction object</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question10" value="D"/>
+                    <span>Read access on the primary relationship</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A developer wrote Apex code that calls out to an external system using REST API.</p>
+        <p>How shoold a developer write the test to prove the code is working as intended?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question11" value="A"/>
+                    <span>Write a class that implements <code>HTTPCalloutMock</code>.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question11" value="B"/>
+                    <span>Write a class that extends <code>WebServiceMock</code></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question11" value="C"/>
+                    <span>Write a class that implements <code>WebServiceMock</code>.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question11" value="D"/>
+                    <span>Write a class that extends <code>HTTPCalloutMock</code>.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Universal Containers wants to assess the advantages of declarative development versus programmatic
+            customization for specific use cases in its Salesforce
+            implementation.</p>
+        <p>What are two characteristics of declarative development over programmatic customization?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question12" value="A"/>
+                    <span>Declarative development does not require Apex test classes.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question12" value="B"/>
+                    <span>Declarative development has higher design limits and query limits.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question12" value="C"/>
+                    <span>Declarative development can be done using the Setup menu.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question12" value="D"/>
+                    <span>Declarative code logic does not require maintenance or review.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. How is a controller and extension specified for a custom object named "Notice" on a Visualforce page?</p>
+        <ol type="A" class="answers">
+                <li>
+                    <label>
+                        <input type="radio" name="question13" value="A"/>
+                        <span><code>apex:page standardController="Notice_c" extensions="myControllerExtension"</code></span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question13" value="B"/>
+                        <span><code>apex:page controllers="Notice_c , myContcollerExtension"</code></span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question13" value="C"/>
+                        <span><code>apex:page=Notice extends="myControllerExtension”</code></span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question13" value="D"/>
+                        <span><code>apex:page controller="Notice_c" extensions="myControllerExtension"</code></span>
+                    </label>
+                </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. How does the Lightning Component framework help developers implement solutions faster?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question14" value="A"/>
+                    <span>By providing an Agile process with defaolt steps</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question14" value="B"/>
+                    <span>By providing code review standards and processes</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question14" value="C"/>
+                    <span>By providing change history and version control</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question14" value="D"/>
+                    <span>By providing device-awareness for mobile and desktops</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Universal Containers wants a list button to display a Visualforce page that allows users to edit moltiple records.</p>
+        <p>Which Visualforce feature supports this requirement?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question15" value="A"/>
+                    <span>Standard Controller with Custom List Controller extension</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question15" value="B"/>
+                    <span>Custom List Controller with <code>recordSetVar</code> page attribute</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question15" value="C"/>
+                    <span>Controller Extension and <code><apex:listButton></code> tag</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question15" value="D"/>
+                    <span>Standard controller and the <code>recordSetVar</code> page attribute</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question16" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question16" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question16" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question16" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question17" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question17" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question17" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question17" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question18" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question18" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question18" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question18" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question19" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question19" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question19" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question19" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question20" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question20" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question20" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question20" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question21" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question21" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question21" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question21" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question22" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question22" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question22" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question22" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question23" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question23" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question23" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question23" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question24" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question24" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question24" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question24" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question25" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question25" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question25" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question25" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question26" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question26" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question26" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question26" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question27" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question27" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question27" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question27" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question28" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question28" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question28" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question28" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question29" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question29" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question29" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question29" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question30" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question30" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question30" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question30" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question31" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question31" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question31" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question31" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question32" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question32" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question32" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question32" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question33" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question33" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question33" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question33" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question34" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question34" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question34" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question34" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question35" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question35" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question35" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question35" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question36" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question36" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question36" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question36" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question37" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question37" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question37" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question37" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question38" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question38" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question38" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question38" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question39" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question39" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question39" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question39" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question40" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question40" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question40" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question40" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question41" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question41" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question41" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question41" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question43" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question43" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question44" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question44" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question44" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question44" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question45" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question45" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question45" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question45" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question46" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question46" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question46" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question46" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question47" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question47" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question47" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question47" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question48" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question48" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question48" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question48" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question49" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question49" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question49" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question49" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question50" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question50" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question50" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question50" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question51" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question51" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question51" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question51" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question52" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question52" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question52" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question52" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question53" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question53" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question53" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question53" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question54" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question54" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question54" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question54" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question55" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question55" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question55" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question55" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question56" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question56" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question56" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question56" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question57" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question57" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question57" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question57" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question58" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question58" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question58" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question58" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question59" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question59" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question59" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question59" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question60" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question60" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question60" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question60" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question61" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question61" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question61" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question61" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question62" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question62" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question62" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question62" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question63" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question63" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question63" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question63" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question64" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question64" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question64" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question64" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question65" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question65" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question65" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question65" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+</ol>
+<button class="view-resolts" onclick="returnScore()">View Resolts</button>
+<span id="myresolts" class="my-resolts">My resolts will appear here</span>
