@@ -1,0 +1,1982 @@
+<ol class="exam">
+    <li>
+        <p>of 65. Salesforce administrator used Flow Builder to create a flow named "accountOnboarding". The flow must be used
+            inside an Aura component.</p>
+        <p>Which tag shoold a developer use to display the flow in the component?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question1" value="A"/>
+                    <span>lightning: flow</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question1" value="B"/>
+                    <span>lightning-flow</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question1" value="C"/>
+                    <span>aura-flow</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question1" value="D"/>
+                    <span>aura: flow</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A developer is alerted to an issue with a custom Apex trigger that is causing records to be duplicated.</p>
+        <p>What is the most appropriate debugging approach to troubleshoot the issue?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question2" value="A"/>
+                    <span>Review the Historical Event logs to identify the source of the issue.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question2" value="B"/>
+                    <span>Add system.debug statements to the code to track the execution flow and identify the issue.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question2" value="C"/>
+                    <span>Use the Apex Interactive Debugger to step through the code and identify the issue.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question2" value="D"/>
+                    <span>Disable the trigger in production and test to see if the issue still occurs.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. What is the resolt of the following code snippet?</p>
+        <code>
+            public woid doWork(Account acct) {<br>
+            for (Integer i = 0; i <= 2007 i++) {<br>
+            insert acct;<br>
+            }<br>
+            }<br>
+        </code>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question3" value="A"/>
+                    <span>0 Accounts are inserted.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question3" value="B"/>
+                    <span>1 Account is inserted.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question3" value="C"/>
+                    <span>200 Accounts are inserted.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question3" value="D"/>
+                    <span>201 Accounts are inserted.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. If Apex code executes inside the <code>execute()</code> method of an Apex class when implementing the <code>Batchable</code>
+            interface, which two statements are true regarding governor
+            limits?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question4" value="A"/>
+                    <span>The Apex governor limits are reset for each iteration of the <code>execute()</code> method.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question4" value="B"/>
+                    <span>The Apex governor limits cannot be exceeded due to the asynchronous nature of the transaction.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question4" value="C"/>
+                    <span>The Apex governor limits will use the asynchronous limit levels.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question4" value="D"/>
+                    <span>The Apex governor limits are omitted while calling the constructor of the Apex class.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A developer must perform a complex SOQL query that joins two objects in a Lightning component.</p>
+        <p>How can the Lightning component execute the query?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question5" value="A"/>
+                    <span>Write the query in a custom Lightning web component wrapper and invoke from the Lightning component.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question5" value="B"/>
+                    <span>Invoke an Apex class with the method annotated as <code>@AuraEnabled</code> to perform the query.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question5" value="C"/>
+                    <span>Use the Salesforce Streaming API to perform the SOQL query.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question5" value="D"/>
+                    <span>Create a flow to execute the query end invoke from the Lightning component.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Which two operations affect the number of times a trigger can fire?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question6" value="A"/>
+                    <span>Criteria-based sharing calcolations</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question6" value="B"/>
+                    <span>Email messages</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question6" value="C"/>
+                    <span>Roll-up summary fields</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question6" value="D"/>
+                    <span>After-save record-triggered flow</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Which two are best practices when it comes to Aura component and application event handling?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question7" value="A"/>
+                    <span>Try to use application events as opposed to component events.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question7" value="B"/>
+                    <span>Reuse the event logic in a component bundle, by putting the legic in the helper.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question7" value="C"/>
+                    <span>Use component events to communicate actions that shoold be handled at the application level.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question7" value="D"/>
+                    <span>Handle low-level events in the event handler and re-fire them as higher-level events.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. What are three considerations when using the <code>@InvocableMethod</code> annotation in Apex?</p>
+        <p>Choose 3 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question8" value="A"/>
+                    <span>Only one methad using the <code>@InvocableMethod</code> annotation can be defined per Apex class_</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question8" value="B"/>
+                    <span>A method using the <code>@InvocableMethod</code> annotation can have moltiple input parameters.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question8" value="C"/>
+                    <span>A method using the <code>@InvocableMethod</code> annotation must be declared as static,</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question8" value="D"/>
+                    <span>A method using the <code>@InvocableMethod</code> annotation must define a return value.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question8" value="D"/>
+                    <span>A method using the <code>@InvocableMethod</code> annotation can be declared as Public or Global.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Managers at Universal Containers want to ensure that only decommissioned containers are able to be deleted in
+            the system. To meet the business requirement a Salesforce developer adds "Decommissioned" as a picklist
+            value for the <code>Status_c</code> custom field within the <code>Container_c</code> object.</p>
+        <p>Which two approaches coold a developer use to enforce only Container records with a status of
+            "Decommissioned" can be deleted?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question9" value="A"/>
+                    <span>Before record-tnggered flaw</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question9" value="B"/>
+                    <span>Apex trigger</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question9" value="C"/>
+                    <span>After record-triggered flow</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question9" value="D"/>
+                    <span>Validation role</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Which two settings must be defined In order to update a record of a junction object?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question10" value="A"/>
+                    <span>Read/Write access on the secondary relationship</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question10" value="B"/>
+                    <span>Read/Write access on the primary relationship</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question10" value="C"/>
+                    <span>Read/Write access on the junction object</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question10" value="D"/>
+                    <span>Read access on the primary relationship</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A developer wrote Apex code that calls out to an external system using REST API.</p>
+        <p>How shoold a developer write the test to prove the code is working as intended?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question11" value="A"/>
+                    <span>Write a class that implements <code>HTTPCalloutMock</code>.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question11" value="B"/>
+                    <span>Write a class that extends <code>WebServiceMock</code></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question11" value="C"/>
+                    <span>Write a class that implements <code>WebServiceMock</code>.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question11" value="D"/>
+                    <span>Write a class that extends <code>HTTPCalloutMock</code>.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Universal Containers wants to assess the advantages of declarative development versus programmatic
+            customization for specific use cases in its Salesforce
+            implementation.</p>
+        <p>What are two characteristics of declarative development over programmatic customization?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question12" value="A"/>
+                    <span>Declarative development does not require Apex test classes.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question12" value="B"/>
+                    <span>Declarative development has higher design limits and query limits.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question12" value="C"/>
+                    <span>Declarative development can be done using the Setup menu.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question12" value="D"/>
+                    <span>Declarative code logic does not require maintenance or review.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. How is a controller and extension specified for a custom object named "Notice" on a Visualforce page?</p>
+        <ol type="A" class="answers">
+                <li>
+                    <label>
+                        <input type="radio" name="question13" value="A"/>
+                        <span><code>apex:page standardController="Notice_c" extensions="myControllerExtension"</code></span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question13" value="B"/>
+                        <span><code>apex:page controllers="Notice_c , myContcollerExtension"</code></span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question13" value="C"/>
+                        <span><code>apex:page=Notice extends="myControllerExtension”</code></span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question13" value="D"/>
+                        <span><code>apex:page controller="Notice_c" extensions="myControllerExtension"</code></span>
+                    </label>
+                </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. How does the Lightning Component framework help developers implement solutions faster?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question14" value="A"/>
+                    <span>By providing an Agile process with defaolt steps</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question14" value="B"/>
+                    <span>By providing code review standards and processes</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question14" value="C"/>
+                    <span>By providing change history and version control</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question14" value="D"/>
+                    <span>By providing device-awareness for mobile and desktops</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Universal Containers wants a list button to display a Visualforce page that allows users to edit moltiple records.</p>
+        <p>Which Visualforce feature supports this requirement?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question15" value="A"/>
+                    <span>Standard Controller with Custom List Controller extension</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question15" value="B"/>
+                    <span>Custom List Controller with <code>recordSetVar</code> page attribute</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question15" value="C"/>
+                    <span>Controller Extension and <code>&lt;apex:listButton&gt;</code> tag</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question15" value="D"/>
+                    <span>Standard controller and the <code>recordSetVar</code> page attribute</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Universal Containers wants to ensure that all new leads created in the system have a valid email address. They have already created a validation rule to enforce this
+            requirement, but want to add an additional layer of validation using automation.</p>
+            <p>What would be the best solution for this requirement?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question16" value="A"/>
+                    <span>Submit a REST API Callout with a JSON payload and validate the fields on a third party system</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question16" value="B"/>
+                    <span>Use an Approval Process to enforce the completion of a valid email address using an outbound message action.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question16" value="C"/>
+                    <span>Use a before-save Apex trigger on the Lead abject to validate the email address and display an error message if it is invalid</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question16" value="D"/>
+                    <span>Use a custom Lightning Web component to make a callout to validate the fields on a third party system.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A team of developers is working on a source-driven project that allows them to work independently, with many different org configurations.</p>
+            <p>Which type of Salesforce orgs should they use for their development?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question17" value="A"/>
+                    <span>Developer sandboxes.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question17" value="B"/>
+                    <span>Full Copy sandboxes</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question17" value="C"/>
+                    <span>Developer orgs</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question17" value="D"/>
+                    <span>Scratch orgs</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A team of many developers work in their own individual orgs that have the sare configuration as the production org.</p>
+        <p>Which type of org is best suited for this scenario?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question18" value="A"/>
+                    <span>Developer Sandbox</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question18" value="B"/>
+                    <span>Full Sandbox</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question18" value="C"/>
+                    <span>Developer Edition</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question18" value="D"/>
+                    <span>Partner Developer Edition</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A developer must provide custom user interfaces when users edit a Contact in either Salesforce Classic or Lightning Experience.</p>
+        <p>What should the developer use to override the Contact's Edit button and provide this functionality?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question19" value="A"/>
+                    <span>A lightning component in Salesforce Classic and a Lightning component in Lightning Experience</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question19" value="B"/>
+                    <span>A Lightning page in Salesfarce Classic and a Visualforce page in Lightning Experience</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question19" value="C"/>
+                    <span>A Visualforce page in Salesforce Classic and a Lightning page in Lightning Experience</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question19" value="D"/>
+                    <span>A Visuelforce page in Salesforce Classic and a Lightning component in Lightning Experience</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Which code statement includes an Apex method named <code>updateAccounts</code> in the class <code>AccountController</code> for use in a Lightning web component?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question20" value="A"/>
+                    <span><code>import updateAccounts from "AccountController';</code></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question20" value="B"/>
+                    <span><code>import updateAccounts from '@salesforce/apex/AccountController';</code></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question20" value="C"/>
+                    <span><code>import updateAccounts from "AccountController.updateAccounts';</code></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question20" value="D"/>
+                    <span><code>import updateAccounts from '@salesforce/apex/AccountController.updateAccounts';</code></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A developer needs to allow users to complete a form on an Account record that will create a record for a custom object.</p>
+        <p>The form needs to display different fields depending on the user's job role. The functionality should only be available to a small group of users.</p>
+        <p>Which three things should the developer do to satisfy these requirements?</p>
+        <p>Choose 3 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question21" value="A"/>
+                    <span>Add a Dynamic Action to the Users’ assigned Page Layouts.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question21" value="B"/>
+                    <span>Create a Lightning web component.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question21" value="C"/>
+                    <span>Create a Custom Permission for the users,</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question21" value="D"/>
+                    <span>Add a Dynamic Action to the Account Record Page.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question21" value="E"/>
+                    <span>Create a Dynamic Form.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A developer needs to prevent the creation of Request_c records when certain conditions exist in the system. A BequestLogic class exists that checks the
+            conditions.</p>
+        <p>What is the correct implementation?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question22" value="A"/>
+                    <span><pre><code>trigger RequestTrigger on Request__c {after insert) {
+    RequestLogic.validateRacords(trigger.new);
+}</code></pre></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question22" value="B"/>
+                    <span><code>
+                        trigger RequestTrigger on Request__c {before insert) {
+                            RequestLogic.validateRecords(trigger.new);
+                        }</code></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question22" value="C"/>
+                    <span><code>
+                        trigger RequestTrigger Request__c (before insert) {
+                            if (Request.isValid(Request_c))
+                                Request.addError(‘Your request cannot be created at this time.');
+                        }</code></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question22" value="D"/>
+                    <span><code>
+                        trigger RequestTrigger on Request__c (after insert) {
+                            if (RequestLogic.isValid(Request_c))
+                                Request.addError( "Your request cannot be created at this time.');
+                        }</code></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. For which three items can a trace flag be configured?</p>
+        <p>Choose 3 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question23" value="A"/>
+                    <span>Apex Class</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question23" value="B"/>
+                    <span>Flow</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question23" value="C"/>
+                    <span>User</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question23" value="D"/>
+                    <span>Visualforce</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question23" value="E"/>
+                    <span>Apex Trigger</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. Which exception type cannot be caught?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question24" value="A"/>
+                    <span>A custom exception</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question24" value="B"/>
+                    <span><code>LimitException</code></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question24" value="C"/>
+                    <span><code>NoAccessException</code></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question24" value="D"/>
+                    <span><code>CalloutException</code></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. What should a developer do to check the code coverage of a class after running all tests?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question25" value="A"/>
+                    <span>View the code coverage percentage for the class using the Overall Code Coverage panel in the Developer Console Tests tab.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question25" value="B"/>
+                    <span>View the Class Test Percentage tab on the Apex Class list view in Salesforce Setup.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question25" value="C"/>
+                    <span>Select and run the class on the Apex Test Execution page in the Developer Console.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question25" value="D"/>
+                    <span>View the Code Coverage column in the list view on the Apex Classes page.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A developer creates a new Apex trigger with a helper class, and writes a test class that only exercises 95% coverage of the new Apex helper class.</p>
+        <p>Change Set deployment to production fails with the test coverage warning:
+            "Test coverage of selected Apex Trigger is 0%, at least 1% test coverage is required."</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question26" value="A"/>
+                    <span>Increase the test class coverage on the helper class.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question26" value="B"/>
+                    <span>Create a test class and methods to cover the Apex trigger.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question26" value="C"/>
+                    <span>Remove the failing test methods from the test class.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question26" value="D"/>
+                    <span>Run the tests using the 'Run All Tests' method.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. What are three capabilities of the <ltng: require> tag when loading JavaScript resources in Aura components?</p>
+        <p>Choose 3 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question27" value="A"/>
+                    <span>One-time loading for duplicate scripts</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question27" value="B"/>
+                    <span>Loading scripts in parallel</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question27" value="C"/>
+                    <span>Loading Files from Documents</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question27" value="D"/>
+                    <span>Specifying loading order</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question27" value="E"/>
+                    <span>Loading externally hosted scripts</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A custom picklist field, Food_Preference__c, exists on a custom object. The picklist contains the following options: 'Vegan', 'Kosher', 'No Preference'. The developer must ensure a value is populated every time a record is created or updated.</p>
+        <p>What is the optimal way to ensure a value is selected every time a record is saved?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question28" value="A"/>
+                    <span>Set "Use the first value in the list as the default value" to True.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question28" value="B"/>
+                    <span>Write an Apex trigger to ensure a value is selected.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question28" value="C"/>
+                    <span>Mark the field as Required on the object's page layout.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question28" value="D"/>
+                    <span>Mark the field as Required on the field definition.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A company decides to implement a new process where every time an Opportunity is created, a follow up Task should be created and assigned to the Opportunity
+            Owner.</p>
+        <p>What is the most efficient way for a developer to implement this?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question29" value="A"/>
+                    <span>Apex trigger on Task</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question29" value="B"/>
+                    <span>Task actions</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question29" value="C"/>
+                    <span>Auto-launched flow on Task</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question29" value="D"/>
+                    <span>Record-triggered flow on Opportunity</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. A developer is tasked to perform a security review of the ContactSearch Apex class that exists in the system. Within the class, the developer identifies the following
+            method as a security threat:</p>
+        <p><code>
+            List<Contact> performSearch {String lastName} {
+                return Database.query('SELECT Id, FirstName, LastName FROM Contact WHERE LastName Like
+                %'+lastName+'%');
+            }</code></p>
+        <p>What are two ways the developer can update the method to prevent a SOQL injection attack?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkbox" name="question30" value="A"/>
+                    <span>Use variable binding and replace the dynamic query with a static SOQL.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question30" value="B"/>
+                    <span>Use the <code>escapeSingleQuotes</code> method to sanitize the parameter before its use.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question30" value="C"/>
+                    <span>Use the <code>@ReadOnly</code> annotation and the <code>with sharing</code> keyword on the class.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="question30" value="D"/>
+                    <span>Use a regular expression expression on the parameter to remove special characters.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. What are two benefits of using External IDs?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question31" value="A"/>
+                    <span>An External ID field can be used to reference an ID from another external system.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question31" value="B"/>
+                    <span>An External ID can be a formula field ta help create a unique key from two fields in Salesforce.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question31" value="C"/>
+                    <span>An External ID can be used with Salesforce Mobile to make external data visible.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question31" value="D"/>
+                    <span>An External 1D is indexed and can improve the performance of SOQL queries.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. What are two characteristics related to formulas?</p>
+        <p>Choose 2 answers</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="checkout" name="question32" value="A"/>
+                    <span>Formulas are calculated at runtime and are not stored in the database.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkout" name="question32" value="B"/>
+                    <span>Formulas can reference themselves.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkout" name="question32" value="C"/>
+                    <span>Formulas can reference values in related objects.</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkout" name="question32" value="D"/>
+                    <span>Fields that are used in a formula field can be deleted or edited without editing the formula.</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. What should a developer use to script the deployment and unit test execution as part of continuous integration?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question33" value="A"/>
+                    <span>Salesforce CLI</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question33" value="B"/>
+                    <span>Execute Anonymous</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question33" value="C"/>
+                    <span>VS Code</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question33" value="D"/>
+                    <span>Developer Console</span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. What are two considerations for deploying from a sandbox to production?</p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question34" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question34" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question34" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question34" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question35" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question35" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question35" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question35" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question36" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question36" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question36" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question36" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question37" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question37" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question37" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question37" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question38" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question38" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question38" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question38" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question39" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question39" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question39" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question39" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question40" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question40" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question40" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question40" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question41" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question41" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question41" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question41" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question42" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question43" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question43" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question44" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question44" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question44" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question44" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question45" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question45" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question45" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question45" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question46" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question46" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question46" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question46" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question47" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question47" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question47" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question47" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question48" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question48" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question48" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question48" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question49" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question49" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question49" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question49" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question50" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question50" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question50" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question50" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question51" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question51" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question51" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question51" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question52" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question52" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question52" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question52" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question53" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question53" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question53" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question53" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question54" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question54" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question54" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question54" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question55" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question55" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question55" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question55" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question56" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question56" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question56" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question56" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question57" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question57" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question57" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question57" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question58" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question58" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question58" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question58" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question59" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question59" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question59" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question59" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question60" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question60" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question60" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question60" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question61" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question61" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question61" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question61" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question62" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question62" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question62" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question62" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question63" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question63" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question63" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question63" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question64" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question64" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question64" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question64" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>of 65. </p>
+        <ol type="A" class="answers">
+            <li>
+                <label>
+                    <input type="radio" name="question65" value="A"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question65" value="B"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question65" value="C"/>
+                    <span></span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="question65" value="D"/>
+                    <span></span>
+                </label>
+            </li>
+        </ol>
+    </li>
+</ol>
+<button class="view-resolts" onclick="returnScore()">View Resolts</button>
+<span id="myresolts" class="my-resolts">My resolts will appear here</span>
